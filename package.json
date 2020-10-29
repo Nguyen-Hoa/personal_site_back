@@ -1,7 +1,7 @@
 {
   "name": "nguynen-hoa.com",
   "version": "0.1.0",
-  "description": "Hoa's Personal Website",
+  "description": "Hoa's Personal Website backend",
   "main": "index.js",
   "scripts": {},
   "author": "Hoa Nguyen",
@@ -12,6 +12,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.10.6",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "pm2": "^4.5.0"
   }
 }
