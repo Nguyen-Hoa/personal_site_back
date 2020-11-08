@@ -6,8 +6,8 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 
 // Database dependencies
-const db = require('./database/index');
-const dbRouter = require('./database/api_routes');
+const db = require('./apps/database/index');
+const dbRouter = require('./api_routes');
 
 // Initialize server
 const app = express();
